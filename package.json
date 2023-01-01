@@ -29,14 +29,14 @@
   "scripts": {
     "bundle": "webpack -p --progress",
     "build": "webpack --config webpack.config.js",
-    "deploy": "webpack -p --progress --config webpack.deploy.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "eslint .",
     "prepush": "npm run lint && npm run security-check",
     "security-check": "npm audit --audit-level high || true",
     "start": "webpack-dev-server --hot --inline",
     "test": "npm run lint && npm run security-check && npm run bundle"
   },
-  "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.0.0",
     "babel-loader": "^7.0.0",
@@ -44,8 +44,9 @@
     "babel-preset-react": "^6.0.0",
     "create-react-class": "^15.7.0",
     "eslint": "^4.0.0",
-    "eslint-config-tuanlh": "^4.0.0",
+    "eslint-config-suddi": "^4.0.0",
     "eslint-plugin-react": "^7.0.0",
+    "gh-pages": "^4.0.0",
     "husky": "^0.14.0",
     "moment": "^2.19.4",
     "nuka-carousel": "^2.0.0",
