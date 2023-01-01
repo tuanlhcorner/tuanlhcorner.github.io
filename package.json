@@ -1,25 +1,25 @@
 {
   "name": "tuanlh.github.io",
   "private": true,
-  "description": "Sudharshan Ravindran personal site",
+  "description": "tuanlh personal site",
   "version": "1.2.2",
-  "homepage": "https://tuanlh.github.io",
+  "homepage": "https://tuanlhcorner.github.io",
   "author": {
-    "name": "Sudharshan Ravindran",
+    "name": "tuanlh",
     "email": "tuanlh@mail.io",
-    "url": "https://tuanlh.github.io"
+    "url": "https://tuanlhcorner.github.io"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tuanlh/tuanlh.github.io"
+    "url": "https://github.com/tuanlhcorner/tuanlhcorner.github.io"
   },
   "bugs": {
-    "url": "https://github.com/tuanlh/tuanlh.github.io/issues"
+    "url": "https://github.com/tuanlhcorner/tuanlhcorner.github.io/issues"
   },
   "licenses": [
     {
       "type": "Apache-2.0",
-      "url": "https://github.com/tuanlh/tuanlh.github.io/LICENSE"
+      "url": "https://github.com/tuanlhcorner/tuanlhcorner.github.io/LICENSE"
     }
   ],
   "engines": {
