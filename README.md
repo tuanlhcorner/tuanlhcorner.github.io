@@ -21,5 +21,3 @@ To bundle for deployment:
 ````sh
 npm run bundle
 ````
-
-You can view the live site at [suddi.io](https://suddi.io)
